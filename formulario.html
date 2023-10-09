@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+      <label for="pregunta1">¿Cual es tu nombre?</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" />
+        <br />
+        <input type="password" name="contraseña" placeholder="Ingrese su contraseña"/>
+        <br />
+        <input type="email" name="correo" placeholder="Ingrese su correo electrónico">
+        <br />
+        <textarea name="comentarios"placeholder="Ingrese sus comentarios"></textarea>
+        <br />
+        <select name="edad">
+          <option value="18">18 años</option>
+          <option value="19">19 años</option> 
+          <option value="20">20 años</option>
+          <br />
+      </select>
+      <input type="radio" name="sexo" value="hombre"/>Hombre
+      <input type="radio"name="sexo"value="mujer"/>Mujer
+      <input type="radio"name="sexo"value="otro"/>Otro
+      <br />
+      <input type="checkbox"name="intereses"value="deporte"/>Deporte
+      <input type="checkbox"name="intereses"value="música"/>Música
+      <input type="checkbox"name="intereses"value="tecnología"/>Tecnología
+      <br />
+      <input type="date"name="fecha" />
+        <button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+    </form>
+</body>
+</html>
